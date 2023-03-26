@@ -35,3 +35,7 @@ li {
   background: rgba(250, 247, 252, 0.3);
   box-shadow: 3px 4px 45px 1px rgba(0, 0, 0, 0.3);
 }
+
+.d-flex img {
+  margin-right: 20px;
+}
