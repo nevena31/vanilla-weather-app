@@ -1,8 +1,5 @@
 body {
   font-family: arial, sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 600px;
 }
 
 h1 {
@@ -26,6 +23,10 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+li:first-letter {
+  text-transform: capitalize;
 }
 
 .weather-app-wrapper {
@@ -63,4 +64,13 @@ li {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgba(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
